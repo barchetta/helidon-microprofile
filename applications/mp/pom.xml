@@ -52,7 +52,7 @@
         <version.plugin.os>1.5.0.Final</version.plugin.os>
         <version.plugin.protobuf>0.6.1</version.plugin.protobuf>
         <version.plugin.resources>3.5.0</version.plugin.resources>
-        <version.plugin.surefire>3.1.0</version.plugin.surefire>
+        <version.plugin.surefire>3.1.2</version.plugin.surefire>
         <version.lib.bytebuddy>1.18.5</version.lib.bytebuddy>
         <version.lib.google-protobuf>4.31.1</version.lib.google-protobuf>
         <version.lib.grpc>1.73.0</version.lib.grpc>
