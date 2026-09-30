@@ -557,9 +557,14 @@
             <!-- END OF Section 1: direct third party dependencies -->
 
             <!-- Section 3: transitive dependencies we manage the version of for convergence/upgrade -->
-            <!-- Use the relocation POM so Jersey's legacy coordinates resolve to org.eclipse.yasson:yasson. -->
+            <!-- Manage Yasson under both coordinates for dependency convergence including Jersey transitive dependencies. -->
             <dependency>
                 <groupId>org.eclipse</groupId>
+                <artifactId>yasson</artifactId>
+                <version>${version.lib.yasson}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.yasson</groupId>
                 <artifactId>yasson</artifactId>
                 <version>${version.lib.yasson}</version>
             </dependency>
