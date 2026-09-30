@@ -45,7 +45,7 @@
         <version.plugin.dependency>3.11.0</version.plugin.dependency>
         <version.plugin.exec>3.6.4</version.plugin.exec>
         <version.plugin.failsafe>3.1.2</version.plugin.failsafe>
-        <version.plugin.helidon-build-tools>4.0.23</version.plugin.helidon-build-tools>
+        <version.plugin.helidon-build-tools>4.0.26</version.plugin.helidon-build-tools>
         <version.plugin.helidon-cli>4.0.26</version.plugin.helidon-cli>
         <version.plugin.install>3.2.0</version.plugin.install>
         <version.plugin.jar>3.5.1</version.plugin.jar>
