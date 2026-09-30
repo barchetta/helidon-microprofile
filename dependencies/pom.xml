@@ -90,6 +90,7 @@
         <version.lib.weld-api>5.0.SP3</version.lib.weld-api>
         <version.lib.weld>5.1.6.Final</version.lib.weld>
         <version.lib.crac>1.5.0</version.lib.crac>
+        <version.lib.yasson>3.0.5</version.lib.yasson>
     </properties>
 
     <dependencyManagement>
@@ -556,11 +557,16 @@
             <!-- END OF Section 1: direct third party dependencies -->
 
             <!-- Section 3: transitive dependencies we manage the version of for convergence/upgrade -->
-            <!-- Use the relocation POM so Jersey's legacy coordinates resolve to org.eclipse.yasson:yasson. -->
+            <!-- Manage Yasson under both coordinates for dependency convergence including Jersey transitive dependencies. -->
             <dependency>
                 <groupId>org.eclipse</groupId>
                 <artifactId>yasson</artifactId>
-                <version>3.0.5</version>
+                <version>${version.lib.yasson}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.yasson</groupId>
+                <artifactId>yasson</artifactId>
+                <version>${version.lib.yasson}</version>
             </dependency>
             <!-- END OF Section 3: transitive dependencies we manage the version of for convergence/upgrade -->
 
