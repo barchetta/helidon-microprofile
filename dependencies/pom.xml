@@ -90,6 +90,7 @@
         <version.lib.weld-api>5.0.SP3</version.lib.weld-api>
         <version.lib.weld>5.1.6.Final</version.lib.weld>
         <version.lib.crac>1.5.0</version.lib.crac>
+        <version.lib.yasson>3.0.5</version.lib.yasson>
     </properties>
 
     <dependencyManagement>
@@ -560,7 +561,7 @@
             <dependency>
                 <groupId>org.eclipse</groupId>
                 <artifactId>yasson</artifactId>
-                <version>3.0.5</version>
+                <version>${version.lib.yasson}</version>
             </dependency>
             <!-- END OF Section 3: transitive dependencies we manage the version of for convergence/upgrade -->
 
