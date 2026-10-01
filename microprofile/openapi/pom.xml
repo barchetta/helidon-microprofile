@@ -293,7 +293,7 @@
                         </goals>
                         <phase>generate-sources</phase>
                         <configuration>
-                            <outputDirectory>${project.build.directory}/generated-sources/annotations</outputDirectory>
+                            <outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
                             <outputClass>io.helidon.microprofile.openapi.SnakeYAMLParserHelper</outputClass>
                             <interfacesConfig>
                                 <inputDirectory>${openapi-interfaces-dir}</inputDirectory>
