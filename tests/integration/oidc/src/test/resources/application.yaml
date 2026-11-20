@@ -30,6 +30,9 @@ security:
         tenant-id-handler:
           header: "helidon-tenant"
         redirect-uri: "/oidc/redirect"
+        frontend-uri-allow-list:
+          allow:
+            pattern: "http://localhost:[0-9]+"
         audience: "account"
         header-use: true
         logout-enabled: true

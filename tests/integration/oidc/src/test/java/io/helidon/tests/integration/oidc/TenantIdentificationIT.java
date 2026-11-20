@@ -47,7 +47,6 @@ import static org.hamcrest.Matchers.greaterThanOrEqualTo;
 // These tests stop at the authorization redirect, so use introspection without requiring signing keys.
 @AddConfig(key = "security.providers.1.oidc.validate-jwt-with-jwk", value = "false")
 @AddConfig(key = "security.providers.1.oidc.fallback-to-default-tenant-enabled", value = "true")
-@AddConfig(key = "security.providers.1.oidc.frontend-uri-allow-list.allow.pattern", value = "http://localhost:[0-9]+")
 class TenantIdentificationIT {
 
     @Test
