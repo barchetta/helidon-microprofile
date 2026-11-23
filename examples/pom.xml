@@ -41,27 +41,24 @@
     </properties>
 
     <modules>
-        <module>coherence</module>
-        <module>graphql</module>
-        <module>hello-world-implicit</module>
-        <module>hello-world-explicit</module>
-        <module>static-content</module>
-        <module>security</module>
-        <module>idcs</module>
-        <module>multipart</module>
-        <module>oidc</module>
-        <module>openapi</module>
-        <module>websocket</module>
-        <module>messaging-sse</module>
-        <!-- <module>cors</module> -->
-        <module>tls</module>
-        <module>multiport</module>
         <module>bean-validation</module>
-        <module>http-status-count-mp</module>
-        <module>telemetry</module>
-        <module>grpc</module>
-        <module>threads</module>
-        <module>json-patch</module>
+        <module>coherence</module>
+        <!-- <module>cors</module> -->
         <module>data</module>
+        <module>graphql</module>
+        <module>grpc</module>
+        <module>hello-world</module>
+        <module>json-patch</module>
+        <module>messaging-sse</module>
+        <module>metrics-http-status-counters</module>
+        <module>multipart</module>
+        <module>multiport</module>
+        <module>openapi</module>
+        <module>security</module>
+        <module>static-content</module>
+        <module>telemetry</module>
+        <module>threads</module>
+        <module>tls</module>
+        <module>websocket</module>
     </modules>
 </project>

@@ -1,4 +1,4 @@
-# http-status-count-mp
+# Metrics HTTP Status Counters
 
 This Helidon MP project illustrates a filter which updates a family of counters based on the HTTP status returned in each response.
 
@@ -11,7 +11,7 @@ Use this example for inspiration in writing your own filter or just use the filt
 
 ```shell
 mvn package
-java -jar target/http-status-count-mp.jar
+java -jar target/helidon-examples-microprofile-metrics-http-status-counters.jar
 ```
 
 ## Exercise the application

@@ -17,16 +17,15 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: http-status-count-mp
+  name: metrics-http-status-counters
   labels:
-    app: http-status-count-mp
+    app: metrics-http-status-counters
 spec:
   type: NodePort
   selector:
-    app: http-status-count-mp
+    app: metrics-http-status-counters
   ports:
   - port: 8080
     targetPort: 8080
     name: http
 ---
-

@@ -1,5 +1,9 @@
 # Helidon MP CORS Example
 
+This example is excluded from the examples build because it uses CORS APIs
+that are unavailable in Helidon 28. Its sources are retained for reference;
+the build and run instructions below require an update to those APIs first.
+
 This example shows a simple greeting application, similar to the one from the 
 Helidon MP QuickStart, enhanced with CORS support.
 
@@ -126,5 +130,4 @@ curl -i -X GET -H "Origin: http://foo.com" -H "Host: here.com" http://localhost:
 #Output: {"greeting":"Cheers Joe!"}
 ```
 Note that the tests in the example `TestCORS` class follow these same steps.
-
 

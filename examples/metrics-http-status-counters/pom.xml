@@ -27,8 +27,8 @@
         <version>28.0.0-SNAPSHOT</version>
         <relativePath>../../applications/mp/pom.xml</relativePath>
     </parent>
-    <groupId>io.helidon.examples</groupId>
-    <artifactId>http-status-count-mp</artifactId>
+    <groupId>io.helidon.examples.microprofile</groupId>
+    <artifactId>helidon-examples-microprofile-metrics-http-status-counters</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <name>Helidon Examples Metrics HTTP Status Counters</name>

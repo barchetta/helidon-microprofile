@@ -9,7 +9,7 @@ The configuration for the static content is in the
 
 ```shell
 mvn package
-java -jar target/helidon-examples-microprofile-mp1_1-static-content.jar
+java -jar target/helidon-examples-microprofile-static-content.jar
 ```
 
 ## Endpoints
